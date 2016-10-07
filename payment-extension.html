@@ -21,10 +21,9 @@
             overflow: hidden;
             max-width: 400px;
         }
-        .grid-12 {
-            width: 100%;
-        }
     </style>
+
+    <link rel="stylesheet" href="styles.css">
 
     <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>-->
 
@@ -35,17 +34,30 @@
       - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
      -->
 
-    <script src="popup.js"></script>
+    <script src="payment.js"></script>
     <script src="scripts/app.js"></script>
 </head>
 <body>
 
-<div class="grid-12">
-    <div> visa - 4111111111111111</div>
-</div>
+<div class="wrapper">
+    <h3>Payment Methods</h3>
+    <div class="payment-method">
+        <div class="label">Visa</div>
+        <div class="content">4111111111111111</div>
+    </div>
+    <div class="payment-method">
+        <div class="label">MasterCard</div>
+        <div class="content">5555555555554444</div>
+    </div>
+    <div class="payment-method no-border--bottom">
+        <div class="label">American Express</div>
+        <div class="content">378282246310005</div>
+    </div>
 
-<div id="status"></div>
-<img id="image-result" hidden>
+    <footer>
+        <p class="disclaimer">Expiration Date must be a valid date in the future (use the mmyy format).</p>
+    </footer>
+</div>
 
 </body>
 </html>
