@@ -1,3 +1,3 @@
 # payment-extention
 
-small payment extension for the Chrome Browser.
+Small payment extension for the Chrome Browser.
