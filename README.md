@@ -10,4 +10,4 @@ Small payment extension for the Chrome Browser.
         - Reload your browser
         
 # Result
-![alt text](/payment-extention/payment-example.png "Payment Extension Example") 
+![alt text](/payment-example.png "Payment Extension Example") 
